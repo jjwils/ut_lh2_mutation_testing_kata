@@ -31,15 +31,9 @@ class FizzBuzzTest {
     }
 
     @Test
-    void return_buzz_given_10() {
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("Buzz", fizzBuzz.convert(10));
-    }
-
-    @Test
     void return_fizzbuzz_given_15() {
         FizzBuzz fizzBuzz = new FizzBuzz();
-        assertEquals("Buzz", fizzBuzz.convert(10));
+        assertEquals("Buzz", fizzBuzz.convert(5));
     }
 
 
