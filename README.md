@@ -36,3 +36,4 @@ pitest {
 4. Run a gradle verification task called pitest
 5. Open the report
 6. Find and fix the problem with the test
+7. Now move onto branch step_3
